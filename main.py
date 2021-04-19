@@ -18,7 +18,7 @@ def lireDonnee(nom_fichier):
     fData.close()
     return table
 
-pop_list = lireDonnee("evolution_pop.txt") 
+pop_list = lireDonnee("evolution_pop.txt") # on peut obtenir le graphe du taux de croissance dans le monde en remplacant evolution_pop.txt par taux_croissance.txt
 
 list_annee = []
 annee = 1959
