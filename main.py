@@ -18,7 +18,7 @@ def lireDonnee(nom_fichier):
     fData.close()
     return table
 
-pop_list = lireDonnee("/home/lahmadi/Téléchargements/evolution_pop.txt")
+pop_list = lireDonnee("evolution_pop.txt") 
 
 list_annee = []
 annee = 1959
