@@ -1,8 +1,8 @@
 from pylab import *
-import modules as md
+import modules/modules as md
 
 
-pop_list = md.lireDonnee("/home/lahmadi/Téléchargements/evolution_pop.txt")
+pop_list = md.lireDonnee("data/evolution_pop.txt")
 
 
 
