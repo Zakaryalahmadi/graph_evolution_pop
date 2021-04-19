@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 Created on Mon Apr 19 18:42:56 2021
 
@@ -7,6 +5,10 @@ Created on Mon Apr 19 18:42:56 2021
 """
 
 def lireDonnee(nom_fichier):
+    """
+        Fonction qui permet de recuperer les données d'un fichier dans une liste
+    """
+    
     table = []
     fData = open(nom_fichier)
 
