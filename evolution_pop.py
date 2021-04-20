@@ -1,5 +1,5 @@
-from pylab import *
-import modules/modules as md
+import pylab
+from modules import * 
 
 
 pop_list = md.lireDonnee("data/evolution_pop.txt")
