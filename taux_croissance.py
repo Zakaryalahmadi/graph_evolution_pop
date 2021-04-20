@@ -1,4 +1,4 @@
-from pylab import *
+import pylab
 from modules import *
 
 
