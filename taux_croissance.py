@@ -1,12 +1,12 @@
 from pylab import *
-import modules/modules as md
+from modules import *
 
 
-pop_list = md.lireDonnee("data/evolution_pop.txt")
+pop_list = lireDonnee("data/evolution_pop.txt")
 
 
 
-list_annee = md.year_interval(1960, 2020)
+list_annee = year_interval(1960, 2020)
 
   
 x = array(list_annee)
